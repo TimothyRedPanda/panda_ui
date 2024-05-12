@@ -27,6 +27,11 @@ interface ButtonProps {
 
 /**
  * A simple button for user interaction - with a variety of customizable options.
+ *
+ * npm i panda_red_ui
+ *
+ * import {Button} from 'panda_red_ui/src'
+ *
  */
 export const Button = ({
   primary = false,
