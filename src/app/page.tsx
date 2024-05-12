@@ -1,17 +1,13 @@
-'use client'
 import styles from "./page.module.scss";
-import {Button} from '../index'
+const  buttonURL = "https://664099e473cee1d4b7313e8f-apxgtgpjug.chromatic.com/?path=/docs/pandaui-button--docs"
 
 export default function Home() {
   return (
   <>
     <main className={styles.wrapper}>
-        <Button
-            label="Button"
-            onClick={() => {console.log("Hello")}}
-            primary
-            size="large"
-        />
+        <iframe
+            className={styles.storybook}
+            src = {buttonURL}/>
       </main>
   </>
   );
