@@ -1,32 +1,49 @@
 @import url('https://use.typekit.net/ovx4oiu.css');
 
-.panda-button {
-  font-family : 'quicksand', sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
+.panda-button
+{
+  border        : 0;
+  border-radius : 3em;
+  cursor        : pointer;
+  display       : inline-block;
+  font-family   : 'quicksand', sans-serif;
+  font-weight   : 700;
+  line-height   : 1;
 }
-.panda-button--primary {
-  color: #fff;
-  background-color: #d46231;
+
+.panda-button--primary
+{
+  background-color : #D46231;
+  color            : #FFF;
 }
-.panda-button--secondary {
-  color: #d46231;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+
+.panda-button--secondary
+{
+  background-color : transparent;
+  box-shadow       : rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+  color            : #D46231;
 }
-.panda-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+
+.panda-button--small
+{
+  font-size : 12px;
+  padding   : 10px 12px;
 }
-.panda-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
+
+.panda-button--medium
+{
+  font-size : 14px;
+  padding   : 12px 14px;
 }
-.panda-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+
+.panda-button--large
+{
+  font-size : 16px;
+  padding   : 14px 16px;
+}
+
+.panda-button--extraLarge
+{
+  font-size : 18px;
+  padding   : 16px 18px;
 }
