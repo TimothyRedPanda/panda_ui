@@ -1,3 +1,3 @@
 ## Panda UI
 
-The GitHub home of Panda UI and UI library maintain by Timothy Bridge.
+The GitHub home of Panda UI a UI library maintain by Timothy Bridge.
