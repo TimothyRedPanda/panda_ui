@@ -8,7 +8,7 @@ interface ButtonProps {
      */
     primary?: boolean;
     /**
-     * Input background color.
+     * primary - background color, secondary - font color.
      */
     backgroundColor?: string;
     /**
@@ -25,7 +25,7 @@ interface ButtonProps {
     onClick?: () => void;
 
     /**
-     * Font Color
+     * Primary - font color, secondary - background-color.
      */
     color?: string;
 }
