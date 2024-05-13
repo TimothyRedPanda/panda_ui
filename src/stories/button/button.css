@@ -12,20 +12,6 @@
   transition: all 0.35s ease-in-out;
 }
 
-.panda-button--primary
-{
-  background-color : #D46231;
-  border           : #D46231 solid 2px;
-  color            : #FFF;
-}
-
-.panda-button--secondary
-{
-  background-color : #FFF;
-  border           : #D46231 solid 2px;
-  color            : #D46231;
-}
-
 .panda-button--small
 {
   font-size : 12px;

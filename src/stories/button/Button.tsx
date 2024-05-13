@@ -4,7 +4,7 @@ import './button.css';
 
 interface ButtonProps {
     /**
-     * Whether the button is primary or not.
+     * Primary design or secondary design.
      */
     primary?: boolean;
     /**
@@ -41,23 +41,25 @@ interface ButtonProps {
 export const Button = ({
                            primary = false,
                            size = 'medium',
-                           backgroundColor,
+                           backgroundColor = '#D46231',
                            label,
-                           color,
+                           color = '#FFF',
                            ...props
                        }: ButtonProps) => {
-    const mode = primary ? 'panda-button--primary' : 'panda-button--secondary';
+    const BGColor = primary ? backgroundColor : color;
+    const TextColor = primary ? color : backgroundColor;
     return (
         <button
             type = 'button'
-            className = {['panda-button', `panda-button--${size}`, mode].join(' ')}
+            className = {['panda-button', `panda-button--${size}`].join(' ')}
             {...props}
         >
       {label}
             <style jsx>{`
                 button {
-                    background-color : ${backgroundColor};
-                    color            : ${color}
+                    background : ${BGColor};
+                    color      : ${TextColor};
+                    border     : ${backgroundColor} 2px solid;
                 }
             `}</style >
     </button >
