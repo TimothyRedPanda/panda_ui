@@ -1,4 +1,4 @@
-import styles from "./page.module.scss";
+import styles from "./page.module.css";
 const  buttonURL = "https://664099e473cee1d4b7313e8f-dwvpbtpoxo.chromatic.com/?path=/docs/design-system"
 
 export default function Home() {

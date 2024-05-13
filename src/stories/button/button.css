@@ -9,41 +9,43 @@
   font-family   : 'quicksand', sans-serif;
   font-weight   : 700;
   line-height   : 1;
+  transition: all 0.35s ease-in-out;
 }
 
 .panda-button--primary
 {
   background-color : #D46231;
+  border           : #D46231 solid 2px;
   color            : #FFF;
 }
 
 .panda-button--secondary
 {
-  background-color : transparent;
-  box-shadow       : rgba(0, 0, 0, 0.15) 0 0 0 1px inset;
+  background-color : #FFF;
+  border           : #D46231 solid 2px;
   color            : #D46231;
 }
 
 .panda-button--small
 {
   font-size : 12px;
-  padding   : 10px 12px;
+  padding   : 10px;
 }
 
 .panda-button--medium
 {
   font-size : 14px;
-  padding   : 12px 14px;
+  padding   : 12px;
 }
 
 .panda-button--large
 {
   font-size : 16px;
-  padding   : 14px 16px;
+  padding   : 14px;
 }
 
 .panda-button--extraLarge
 {
   font-size : 18px;
-  padding   : 16px 18px;
+  padding   : 16px;
 }

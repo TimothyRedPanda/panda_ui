@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import './button.scss';
+import './button.css';
 
 interface ButtonProps {
     /**
@@ -33,7 +33,7 @@ interface ButtonProps {
 /**
  * A simple button for user interaction - with a variety of customizable options.
  *
- * npm i panda_red_ui
+ * npm i panda_red_ui framer-motion
  *
  * import {Input} from 'panda_red_ui/src'
  *

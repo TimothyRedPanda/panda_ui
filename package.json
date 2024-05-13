@@ -13,13 +13,12 @@
     "build-storybook": "storybook build",
     "prepare": "husky"
   },
-  "author" : "Timothy Bridge",
+  "author": "Timothy Bridge",
   "dependencies": {
     "framer-motion": "^11.1.9",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "sass": "^1.77.1"
+    "react-dom": "^18"
   },
   "files": [
     "src/stories",

@@ -1,6 +1,7 @@
 'use client'
 import React from 'react';
-import './input.scss';
+import './input.css';
+import {motion} from 'framer-motion';
 
 interface InputProps {
     /**
@@ -26,12 +27,20 @@ interface InputProps {
      * Input Type
      */
     type?: 'text' | 'number' | 'date';
+    /**
+     * animate on Hover
+     */
+    hover?: boolean,
+    /**
+     * Color on hover
+     */
+    hoverColor?: string
 }
 
 /**
  * A simple box to take user input.
  *
- * npm i panda_red_ui
+ * npm i panda_red_ui framer-motion
  *
  * import {Input} from 'panda_red_ui/src'
  *
@@ -41,11 +50,14 @@ export const Input = ({
                           color,
                           borderColor,
                           type,
+                          hover = true,
+                          hoverColor = '#31A3D4',
                           ...props
                       }: InputProps) => {
     return (
         <>
-        <input
+        <motion.input
+            whileHover = {hover ? {color: hoverColor} : {color: color}}
             type = {type || 'text'}
             className = {['panda-input', `panda-input--${size}`].join(' ')}
             {...props}

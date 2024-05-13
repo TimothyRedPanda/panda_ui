@@ -1,0 +1,35 @@
+@import url('https://use.typekit.net/ovx4oiu.css');
+
+.panda-label
+{
+  color       : #D46231;
+  font-family : 'quicksand', sans-serif;
+  font-weight : 700;
+  line-height : 1;
+  transition  : all 0.35s ease-in-out;
+  user-select : none;
+}
+
+.panda-label--small
+{
+  font-size : 12px;
+  padding   : 10px;
+}
+
+.panda-label--medium
+{
+  font-size : 14px;
+  padding   : 12px;
+}
+
+.panda-label--large
+{
+  font-size : 16px;
+  padding   : 14px;
+}
+
+.panda-label--extraLarge
+{
+  font-size : 18px;
+  padding   : 16px;
+}

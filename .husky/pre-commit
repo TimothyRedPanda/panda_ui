@@ -1,2 +1,2 @@
-snyk test
-snyk code test
+snyk test --all-projects
+snyk code test --all-projects
