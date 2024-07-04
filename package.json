@@ -16,7 +16,7 @@
   "author": "Timothy Bridge",
   "dependencies": {
     "framer-motion": "^11.1.9",
-    "next": "14.2.3",
+    "next": "14.2.4",
     "react": "^18",
     "react-dom": "^18"
   },
